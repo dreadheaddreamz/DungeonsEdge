@@ -1,0 +1,14 @@
+C:\Users\James\DungeonsEdge\bin\Debug\net10.0\DungeonsEdge.exe
+C:\Users\James\DungeonsEdge\bin\Debug\net10.0\DungeonsEdge.deps.json
+C:\Users\James\DungeonsEdge\bin\Debug\net10.0\DungeonsEdge.runtimeconfig.json
+C:\Users\James\DungeonsEdge\bin\Debug\net10.0\DungeonsEdge.dll
+C:\Users\James\DungeonsEdge\bin\Debug\net10.0\DungeonsEdge.pdb
+C:\Users\James\DungeonsEdge\obj\Debug\net10.0\DungeonsEdge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\DungeonsEdge\obj\Debug\net10.0\DungeonsEdge.AssemblyInfoInputs.cache
+C:\Users\James\DungeonsEdge\obj\Debug\net10.0\DungeonsEdge.AssemblyInfo.cs
+C:\Users\James\DungeonsEdge\obj\Debug\net10.0\DungeonsEdge.csproj.CoreCompileInputs.cache
+C:\Users\James\DungeonsEdge\obj\Debug\net10.0\DungeonsEdge.dll
+C:\Users\James\DungeonsEdge\obj\Debug\net10.0\refint\DungeonsEdge.dll
+C:\Users\James\DungeonsEdge\obj\Debug\net10.0\DungeonsEdge.pdb
+C:\Users\James\DungeonsEdge\obj\Debug\net10.0\DungeonsEdge.genruntimeconfig.cache
+C:\Users\James\DungeonsEdge\obj\Debug\net10.0\ref\DungeonsEdge.dll
