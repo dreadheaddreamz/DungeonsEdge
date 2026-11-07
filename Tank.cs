@@ -2,10 +2,10 @@ public class Tank : Player
 {
     public int Armor { get; set; }
 
-    public Tank(string name, int maxHealth, int level, int gold, int armor)
-        : base(name, maxHealth, level, gold)
+    public Tank(string name)
+        : base(name, maxHealth: 300, level: 1, gold: 0)
     {
-        Armor = armor;
+        Armor = 100;
     }
 
     public int ShieldBash()
