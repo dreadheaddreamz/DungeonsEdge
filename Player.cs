@@ -1,32 +1,19 @@
 using System;
 
-public class Player
+public class Player : Character
 {
-    public string Name { get; set; }
-    public int Health { get; set; }
     public int MaxHealth { get; set; }
-    public int Level { get; set; }
+
     public int Gold { get; set; }
 
-    public Player(string name, int maxHealth, int level, int gold)
+    public Player(string name, int maxHealth, int level, int gold) : base(name, maxHealth, level)
     {
-        Name = name;
         MaxHealth = maxHealth;
-        Health = maxHealth;
-        Level = level;
         Gold = gold;
     }
 
-    public virtual void TakeDamage(int damage)
+    public override void Attack(Character target)
     {
-        if (damage < 0)
-        {
-            return;
-        }
-        Health -= damage;
-        if (Health <= 0)
-        {
-            Health = 0;
-        }
+
     }
 }

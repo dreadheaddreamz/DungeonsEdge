@@ -12,3 +12,4 @@ C:\Users\James\DungeonsEdge\obj\Debug\net10.0\refint\DungeonsEdge.dll
 C:\Users\James\DungeonsEdge\obj\Debug\net10.0\DungeonsEdge.pdb
 C:\Users\James\DungeonsEdge\obj\Debug\net10.0\DungeonsEdge.genruntimeconfig.cache
 C:\Users\James\DungeonsEdge\obj\Debug\net10.0\ref\DungeonsEdge.dll
+C:\Users\James\DungeonsEdge\obj\Debug\net10.0\DungeonsEdge.sourcelink.json

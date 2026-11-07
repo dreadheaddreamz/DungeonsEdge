@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DungeonsEdge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2080be7770988e8d6c17e8256f1341c057f8003")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56ea56e3158d924f0adc90379a72bbc4fa73ff3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DungeonsEdge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DungeonsEdge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
