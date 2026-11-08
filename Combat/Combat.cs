@@ -7,7 +7,8 @@ public class Combat
     {
         Player = player;
         Enemy = enemy;
-
+    }
+    public void StartCombat() {
         while (Player.Health > 0 && Enemy.Health > 0)
         {
             Player.Attack(Enemy);

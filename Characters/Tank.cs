@@ -10,7 +10,7 @@ public class Tank : Player
 
     public int ShieldBash()
     {
-        int damage = 20;
+        int damage = 30;
         return damage;
     }
 
@@ -30,5 +30,9 @@ public class Tank : Player
         {
             Health = 0;
         }
+    }
+    public override int GetCritChance()
+    {
+        return 25; // Tank has a higher critical hit chance of 25%
     }
 }

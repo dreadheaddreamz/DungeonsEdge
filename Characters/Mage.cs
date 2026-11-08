@@ -20,4 +20,8 @@ public class Mage : Player
             return damage;
         }
     }
+    public override int GetCritChance()
+    {
+        return 30; // Mage has a higher critical hit chance of 30%
+    }
 }

@@ -21,4 +21,8 @@ public class Rogue : Player
             return damage;
         }
     }
+    public override int GetCritChance()
+    {
+        return 30; // Rogue has a higher critical hit chance of 30%
+    }
 }
