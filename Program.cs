@@ -91,30 +91,42 @@ public class Program
 
     public static void TestCombat(Player player)
     {
-        Console.WriteLine($"\n--- {player.Name} VS GOBLIN ---");
+        Console.WriteLine($"\n--- {player.Name} VS MALAZAR ---");
 
-        Enemy enemy = new Enemy("Goblin", 100, 1, 15, 10, 20);
+        GoblinNecromancer necro = new GoblinNecromancer("Malazar");
 
-        Combat combat = new Combat(player, enemy);
+        Combat combat = new Combat(player, necro);
 
         combat.StartCombat();
 
-        Console.WriteLine(
-            $"{player.Name} Health Remaining: {player.Health}"
-        );
+        Console.WriteLine($"\n--- COMBAT RESULTS ---");
+        Console.WriteLine($"Player Health: {player.Health}");
+        Console.WriteLine($"Necromancer Health: {necro.Health}");
+        Console.WriteLine($"Necromancer Mana: {necro.Mana}");
 
-        Console.WriteLine(
-            $"{enemy.Name} Health Remaining: {enemy.Health}"
-        );
+        if (necro.Health > 0)
+        {
+            Console.WriteLine("\n--- NECROMANCER SPECIAL ABILITY ---");
+
+            necro.SoulSteal(player);
+
+            Console.WriteLine($"Player Health: {player.Health}");
+            Console.WriteLine($"Necromancer Health: {necro.Health}");
+            Console.WriteLine($"Necromancer Mana: {necro.Mana}");
+        }
+        else
+        {
+            Console.WriteLine($"{necro.Name} cannot cast spells because he has been defeated.");
+        }
     }
     public static void TestEnemyAttack()
     {
         Player player = new Player("James", 200, 30, 50);
-        Enemy enemy = new Enemy("Goblin", 100, 1, 15, 10, 20);
+        GoblinNecromancer necro = new GoblinNecromancer("Malazar");
 
         Console.WriteLine($"Player Health: {player.Health}");
 
-        enemy.Attack(player);
+        necro.Attack(player);
 
         Console.WriteLine($"Player Health After Attack: {player.Health}");
     }

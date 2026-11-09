@@ -2,7 +2,7 @@ public class GoblinNecromancer : Enemy
 {
     public int Mana { get; set; }
     public GoblinNecromancer(string name)
-        : base(name, health: 120, level: 1, goldReward: 20, expReward: 10, damage: 15)
+        : base(name, health: 400, level: 1, goldReward: 20, expReward: 10, damage: 15)
     {
         Mana = 100;
     }
@@ -17,7 +17,12 @@ public class GoblinNecromancer : Enemy
         Mana -= 20;
         int spellDamage = 35;
          Health += spellDamage / 2; // Goblin Necromancer heals for half the damage dealt
+        Console.WriteLine($"{Name} heals for {spellDamage / 2} health!");
         Console.WriteLine($"{Name} casts a spell on {target.Name} for {spellDamage} damage!");
         target.TakeDamage(spellDamage);
+    }
+    public override void Attack(Character target)
+    {
+        SoulSteal(target);
     }
 }
