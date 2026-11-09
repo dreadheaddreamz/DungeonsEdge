@@ -68,11 +68,24 @@ The goal is to build a small but expandable RPG featuring different character cl
 
 ```text
 DungeonsEdge/
+│
+├── Characters/
+│   ├── Character.cs
+│   ├── Player.cs
+│   ├── Tank.cs
+│   ├── Mage.cs
+│   └── Rogue.cs
+│
+├── Enemies/
+│   ├── Enemy.cs
+│   ├── GobGuardian.cs
+│   ├── GobNecro.cs
+│   └── GobWarrior.cs
+│
+├── Combat/
+│   └── Combat.cs
+│
 ├── Program.cs
-├── Player.cs
-├── Tank.cs
-├── Mage.cs
-├── Rogue.cs
 └── DungeonsEdge.csproj
 ```
 
