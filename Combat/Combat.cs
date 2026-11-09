@@ -1,3 +1,4 @@
+
 public class Combat
 {
     public Player Player { get; private set; }
